@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
@@ -9,12 +9,13 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: #3a3a3a ;
+    color: #3a3a3a;
 }
 
 /* headings and logo*/
 
-h1, h2 {
+h1,
+h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -33,17 +34,18 @@ h1, h2 {
     letter-spacing: 3px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
-#menu li{
+#menu li {
     float: right;
     list-style-type: none;
     margin: 30px;
 }
 
-#menu a{
+#menu a {
     text-decoration: none;
     color: inherit;
 }
@@ -63,8 +65,7 @@ h1, h2 {
     width: 100%;
     float: left;
     margin: 20px;
-    position: relative;
-    
+
 }
 
 #hero-image {
@@ -76,30 +77,43 @@ h1, h2 {
 }
 
 #right-about {
-   font-size: 20px;
-   font-size: 200%;
-   letter-spacing: 3px;
-   display: inline-block;
-   left:50%;
-   height: 600px;
-   right: 0;
-   position: absolute;
-   margin-right: 10%;
-   top: 25%;
+    font-size: 20px;
+    font-size: 200%;
+    letter-spacing: 3px;
+    left: 50%;
+    height: 600px;
+    right: 0;
+    position: absolute;
+    margin-right: 10%;
+    top: 25%;
+}
+
+.sec{
+    width: 100%;
+    height:600px;
+    overflow: hidden;
 }
 
 footer {
-    height: 150px;
+    height: 200px;
+    width:100%;
+    background-color: aqua;
+    
 }
+
 .social-networks {
-    text-align: center;
+    
+    text-align:center ;
 }
-.social-networks > li {
-display: inline;
+
+.social-networks li {
+    display: inline;
 }
+
 .social-networks i {
+    
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: darkslategray;
+    color: #3a3a3a;
 }
