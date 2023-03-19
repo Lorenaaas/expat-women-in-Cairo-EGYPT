@@ -65,7 +65,6 @@ h2 {
     width: 100%;
     float: left;
     margin: 20px;
-
 }
 
 #hero-image {
@@ -74,6 +73,7 @@ h2 {
     background: url('../images/arabic2.jpeg') no-repeat center center;
     background-size: 50%;
     background-position: left;
+    border-color: 2px solid black;
 }
 
 #right-about {
@@ -97,7 +97,7 @@ h2 {
 #about-us {
     margin: 10px;
     font-size: 20px;
-    font-size: 200%;
+    font-size: 150%;
     letter-spacing: 3px;
     padding: 10%;
     font-weight: 400;
@@ -105,15 +105,13 @@ h2 {
 }
 .sec1 {
     clear: left;
-    background: url("../images/pexels-photo-cairoo.jpeg");
-    background-size: cover;
+    background: url("../images/pexels-photo-1369212.jpeg")no-repeat;
+    background-size: 100%;
     background-position: center center;
     height: 900px;
-    height:600px;
 width: 100%;
-overflow: hidden;
 position: relative;
-background-color: transparent;
+border-color: 2px solid black;
 }
 
 /*table style*/
@@ -143,7 +141,7 @@ tr, th{
 
     /*form section*/
 
-.form-section {
+    .form-section {
         border-spacing: 10px;
         font-size: 150%;
         letter-spacing: 3px;
@@ -204,15 +202,24 @@ tr, th{
     
     /*footer*/
     footer {
-        height: 200px;
+        height: 900px;
         width:100%;
-    
+        background: url("../images/pexels-women-talking.webp");
+        background-size: cover;
+        text-align:center ;
         
+    }
+    .contact {
+        text-align:center ;
+        font-size: 120%;
+        font-weight: 400px;
+        padding-top: 10%;
     }
     
     .social-networks {
-        
-        text-align:center ;
+     text-align:center ;
+     font-size: 160%;
+     font-weight: 400px;
     }
     
     .social-networks li {
@@ -223,7 +230,7 @@ tr, th{
         
         font-size: 160%;
         margin: 1%;
-        padding: 5%;
+        padding: 2%;
         color: darkslategray;
     }
     
