@@ -88,49 +88,32 @@ h2 {
     top: 25%;
 }
 
-.sec{
+.sec1{
     width: 100%;
     height:600px;
     overflow: hidden;
 }
 
-footer {
-    height: 200px;
-    width:100%;
-
-    
-}
-
-.social-networks {
-    
-    text-align:center ;
-}
-
-.social-networks li {
-    display: inline;
-}
-
-.social-networks i {
-    
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: darkslategray;
-}
-
-.sec {
-    margin: 20px;
-    font-size: 20px;
-    font-size: 200%;
-    letter-spacing: 3px;
-    background-color:lightblue;
-}
 #about-us {
     margin: 10px;
     font-size: 20px;
     font-size: 200%;
     letter-spacing: 3px;
     padding: 10%;
+    font-weight: 400;
+    color: black;
+}
+.sec1 {
+    clear: left;
+    background: url("../images/pexels-photo-cairoo.jpeg");
+    background-size: cover;
+    background-position: center center;
+    height: 900px;
+    height:600px;
+width: 100%;
+overflow: hidden;
+position: relative;
+background-color: transparent;
 }
 
 /*table style*/
@@ -146,6 +129,7 @@ footer {
     margin: 10px;
     padding: 0;
     text-align: left;
+    
 }
 
 tr, th{
@@ -155,4 +139,98 @@ tr, th{
      color: white;
      background-clip: padding-box; 
      font-size: medium;
+    }
+
+    /*form section*/
+
+.form-section {
+        border-spacing: 10px;
+        font-size: 150%;
+        letter-spacing: 3px;
+        border: 1px solid black;
+        
+    }
+
+    .form-section {
+        width:110%;
+        background: url("../images/pexels-photo-15188027.jpeg");
+        background-size: cover;
+        height: 900px;
+    
+    
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+    .signup-form{
+        margin: 159px 10% 0 0 ;
+        color: #fff;
+        background-color: rgba(60, 60, 60, 0.6);
+        max-width: 900px;
+        position: absolute;
+        left: 10%;
+        padding: 40px;
+        border-color: 2px solid black;
+        display:inline;
+        
+    }
+     .signup-form > h2 {
+        color:#fafafa;
+        margin-bottom:20px;
+    }
+    .join-button {
+        margin-top: 20px;
+        border-radius: 2px;
+        padding: 15px 32px 15px 32px;
+        text-align: center;
+        font-size: 100%;
+        background-color: #f16c6b;
+        color: #fafafa;
+        display: block;
+    }
+    
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #f16c6b;
+    }
+    
+    /*footer*/
+    footer {
+        height: 200px;
+        width:100%;
+    
+        
+    }
+    
+    .social-networks {
+        
+        text-align:center ;
+    }
+    
+    .social-networks li {
+        display: inline;
+    }
+    
+    .social-networks i {
+        
+        font-size: 160%;
+        margin: 1%;
+        padding: 5%;
+        color: darkslategray;
+    }
+    
+    .sec {
+        margin: 20px;
+        font-size: 20px;
+        font-size: 200%;
+        letter-spacing: 3px;
+        background-color:lightblue;
     }
