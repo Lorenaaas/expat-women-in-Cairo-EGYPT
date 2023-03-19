@@ -25,6 +25,7 @@ h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 20px;
 }
 
 /*navigation links*/
@@ -42,7 +43,7 @@ h2 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin: 30px;
+    margin: 20px;
 }
 
 #menu a {
@@ -68,50 +69,53 @@ h2 {
 }
 
 #hero-image {
-    height: 500px;
-    width: 70%;
+    height: 100%;
+    width: 50%;
     background: url('../images/arabic2.jpeg') no-repeat center center;
-    background-size: 50%;
-    background-position: left;
-    border-color: 2px solid black;
+    background-size: cover;
+    margin-right:30px;
 }
 
 #right-about {
-    font-size: 20px;
+    
     font-size: 200%;
     letter-spacing: 3px;
     left: 50%;
     height: 600px;
     right: 0;
     position: absolute;
-    margin-right: 10%;
+    margin-left: 40px;
     top: 25%;
 }
 
-.sec1{
+.sec1 {
     width: 100%;
-    height:600px;
-    overflow: hidden;
+    height: 200px;
 }
 
 #about-us {
-    margin: 10px;
-    font-size: 20px;
+    margin: 5px;
     font-size: 150%;
     letter-spacing: 3px;
     padding: 10%;
     font-weight: 400;
-    color: black;
+    color: white;
 }
+
+#about-us h1 {
+    font-size: 200%;
+    color: darkslategray;
+}
+
 .sec1 {
     clear: left;
     background: url("../images/pexels-photo-1369212.jpeg")no-repeat;
     background-size: 100%;
     background-position: center center;
     height: 900px;
-width: 100%;
-position: relative;
-border-color: 2px solid black;
+    width: 100%;
+    position: relative;
+    border-color: 2px solid black;
 }
 
 /*table style*/
@@ -122,40 +126,42 @@ border-color: 2px solid black;
 
 }
 
-.table, tr, th{
-    border: 1px solid black;
+.table,
+tr,
+th {
     margin: 10px;
     padding: 0;
     text-align: left;
-    
+
 }
 
-tr, th{
+tr,
+th {
     padding: 10px;
-     border-bottom: 15px solid transparent;
-     background-color: #3a3a3a;
-     color: white;
-     background-clip: padding-box; 
-     font-size: medium;
-    }
+    border-bottom: 15px solid transparent;
+    background-color: #3a3a3a;
+    color: white;
+    background-clip: padding-box;
+    font-size: medium;
+}
 
-    /*form section*/
+/*form section*/
 
-    .form-section {
-        border-spacing: 10px;
-        font-size: 150%;
-        letter-spacing: 3px;
-        border: 1px solid black;
-        
-    }
+.form-section {
+    border-spacing: 10px;
+    font-size: 150%;
+    letter-spacing: 3px;
+    border: 1px solid black;
 
-    .form-section {
-        width:110%;
-        background: url("../images/pexels-photo-15188027.jpeg");
-        background-size: cover;
-        height: 900px;
-    
-    
+}
+
+.form-section {
+    width: 110%;
+    background: url("../images/pexels-photo-15188027.jpeg");
+    background-size: cover;
+    height: 900px;
+
+
 }
 
 .text-input {
@@ -168,76 +174,163 @@ tr, th{
     border-radius: 2px;
 }
 
-    .signup-form{
-        margin: 159px 10% 0 0 ;
-        color: #fff;
-        background-color: rgba(60, 60, 60, 0.6);
-        max-width: 900px;
-        position: absolute;
-        left: 10%;
-        padding: 40px;
-        border-color: 2px solid black;
-        display:inline;
+.signup-form {
+    margin: 159px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 900px;
+    position: absolute;
+    left: 10%;
+    padding: 40px;
+    border-color: 2px solid black;
+    display: inline;
+
+}
+
+.signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
+}
+
+/*footer*/
+footer {
+    height: 900px;
+    width: 100%;
+    background: url("../images/pexels-women-talking.webp");
+    background-size: cover;
+    text-align: center;
+
+}
+
+.contact {
+    text-align: center;
+    font-size: 120%;
+    font-weight: 400px;
+    padding-top: 10%;
+}
+
+.social-networks {
+    text-align: center;
+    font-size: 160%;
+    font-weight: 400px;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+
+    font-size: 160%;
+    margin: 1%;
+    padding: 2%;
+    color: darkslategray;
+}
+
+.sec {
+    margin: 20px;
+    font-size: 20px;
+    font-size: 200%;
+    letter-spacing: 3px;
+    background-color: lightblue;
+}
+
+/* Media queries */
+
+/* For large to medium screens sizes from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #about-us {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+        #menu{
+            clear: left;
+            float: left;
+            margin-left: 30px; 
+            margin-bottom: 20px;
+            line-height: 25px;
+        }
+        #hero-outer{
+
+            height: 1200px;
+            width: 65%;
+            margin: 0 auto;
+        }
+
+        #hero-image{
+
+            width: 50%;
+            height: 50%;
+            margin-top:400px;
+            margin-right: 400px;
+            margin-left:200px;
+
+        }
+
+    #right-about {
+        left:0;
         
     }
-     .signup-form > h2 {
-        color:#fafafa;
-        margin-bottom:20px;
+
+
+    hr {
+        display: none;
     }
-    .join-button {
-        margin-top: 20px;
-        border-radius: 2px;
-        padding: 15px 32px 15px 32px;
-        text-align: center;
-        font-size: 100%;
-        background-color: #f16c6b;
-        color: #fafafa;
-        display: block;
-    }
-    
-    .join-button:hover {
-        background-color: #fafafa;
-        color: #f16c6b;
-    }
-    
-    /*footer*/
-    footer {
-        height: 900px;
-        width:100%;
-        background: url("../images/pexels-women-talking.webp");
-        background-size: cover;
-        text-align:center ;
+}
+
+/* For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
         
     }
-    .contact {
-        text-align:center ;
-        font-size: 120%;
-        font-weight: 400px;
-        padding-top: 10%;
+    #hero-outer{
+
+        height: 1200px;
+        width: 100%;
+        margin: 0 auto;
     }
-    
-    .social-networks {
-     text-align:center ;
-     font-size: 160%;
-     font-weight: 400px;
+
+    #right-about {
+        left: 0;
+       top:20%;
     }
-    
-    .social-networks li {
-        display: inline;
+
+    #about-us {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
     }
-    
-    .social-networks i {
+    #hero-image {
+       
+        width: 100%;
+        height: 50%;
+        margin-top: 300px;
         
-        font-size: 160%;
-        margin: 1%;
-        padding: 2%;
-        color: darkslategray;
+        
     }
-    
-    .sec {
-        margin: 20px;
-        font-size: 20px;
-        font-size: 200%;
-        letter-spacing: 3px;
-        background-color:lightblue;
-    }
+}
+
+
