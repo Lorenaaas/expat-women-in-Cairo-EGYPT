@@ -1,108 +1,97 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Expat Women in Cairo
 
-Welcome Lorena Guranda,
+#Introduction:
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This project is aimed to all the expat women living in Cairo Egypt. It is an informative web page that offers women only a safe place to socialize and learn, together with other expat women. The web page is offering Arabic language sessions, Middle eastern cooking classes, and meet-ups or group travels, within Egypt, on organized trips.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Live demo [_here_](https://www.example.com)
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## General Information
+	 The page is divided in 4 parts:
+	1. a nav bar containing the title and 3 nav links: About Us, Sign Up and Contact
+	2. Short title with brief description of what the webpage is about and who is the information contained aimed to
+	3. About Us paragraph containing the relevant information for the group’s sessions and the weekly schedule of the sessions with times
+	4. Sign Up form for the users interested in being part of the club, in which they have to insert their first name, last name, and email address; then submit the information through the ‘Join Us!’ button.
+	5. Contact information: Users can find the phone number, email and location of the club, together with 3 social media platforms icons that open in separate tabs
+	
+- This page gives insight and helps women coming from outside Egypt have a reference point for information, gatherings and learning
+- The scope of the project is to promote a safe place for expat women only to meet and spend quality time with other expats.
+- I took on this project as I, myself, was an expat for 8 years in the Middle East and it was a real help to find other women in my same situation I could relate to.
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+## Technologies Used
+- Tech 1 -GitHub Enterprise Server 3.8.0. March 07, 2023.
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+## Features
+List the ready features here:
+### Navigation
+-	On top of the page, the navigation shows the Club name in the left corner: Expat Women in Cairo that links to the top of the page
+-	The other navigation links are to the right: About Us, Sign Up, and Contact, which link to different sections of the same page.
+-	The navigation is set in a easy-to-read font and color that contrasts with the background.
+-	The navigation clearly tells the user the name of the club and website and makes the different sections of information easy to find.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Screenshots
+![Example screenshot](./img/screenshot.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+###The Header
+-	The header shows the name of the club, using the other color chosen darslategray.
+-	The header explains the club is for only expat women living in Cairo, Egypt that are willing to socialize and learn new things pertaining to the country’s culture.
+Ss here
 
-------
+### The About Us Section
+-	The About Us Sections gives details about what the club offers to the members.
+-	It contains as well a schedule with days, times, and sessions the club members can join.
+Ss here
 
-## Release History
+### The Sign Up Form
+-	The Sign Up section contains a form that collects the first name, last name, and email of the user that would like to join the club
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+SS HERE
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### The Contact Section
+-	The contact section contains information of how the user can get in contact with the club members
+-	The contact section provides a phone number, email address, and the location of the club
+-	The contact section contains as well social media icons that will bring the users to the facebook page, youtube page and Instagram page.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## Setup and testing
+-	I tested that the page is working on Chrome, Firefox and Safari
+-	I confirmed that the project is responsive, looks good and functions on all standard screen sizes 
+-	I confirm that the navigation, header, about us, sign up, and contact text are all readable and easy to understand
+-	I confirm that the form works: requires entry in every field and will only accept an email in the email field, and the ‘join us’ button works.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Project Status
+Project is: _complete_ 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+#Validator Testing
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Room for Improvement
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Room for improvement:
+- Improvement to be done: better quality background images
+- Improvement to be done: better use of space 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+To do:
+- A Gallery containing pictures of different activities the expats did together
+- A Recipe page with some Middle eastern recipes
 
-------
 
-## FAQ about the uptime script
+## Acknowledgements
+- This project was based on Expat Women in Cairo(EWIC)fb: https://www.facebook.com/groups/1414611118750597/
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+## Contact
+Created by [Lorena Guranda- lorena1985@ymail.com] - feel free to contact me!
 
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
