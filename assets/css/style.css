@@ -107,23 +107,23 @@ h2 {
     letter-spacing: 3px;
     padding: 10%;
     font-weight: 400;
-    color: white;
+    color: black;
 }
 
-#about-us h1 {
+#about-title {
     font-size: 200%;
     color: darkslategray;
 }
 
 .sec1 {
     clear: left;
-    background: url("../images/pexels-photo-1369212.jpeg")no-repeat;
+   background-color: darkgoldenrod;
     background-size: 100%;
     background-position: center center;
     height: 900px;
     width: 100%;
     position: relative;
-    border-color: 2px solid black;
+    border: 2px solid black;
 }
 
 /*table style*/
@@ -140,6 +140,7 @@ th {
     margin: 10px;
     padding: 0;
     text-align: left;
+    position: relative;
 
 }
 
@@ -190,7 +191,7 @@ th {
     position: absolute;
     left: 10%;
     padding: 40px;
-    border-color: 2px solid black;
+    border: 2px solid black;
     display: inline;
 
 }
@@ -229,14 +230,14 @@ footer {
 .contact {
     text-align: center;
     font-size: 120%;
-    font-weight: 400px;
+    font-weight: 400;
     padding-top: 10%;
 }
 
 .social-networks {
     text-align: center;
     font-size: 160%;
-    font-weight: 400px;
+    font-weight: 400;
 }
 
 .social-networks li {
