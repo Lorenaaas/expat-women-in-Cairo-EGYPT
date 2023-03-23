@@ -1,10 +1,10 @@
 # Expat Women in Cairo
 
-#Introduction:
+# Introduction:
 
 This project is aimed to all the expat women living in Cairo Egypt. It is an informative web page that offers women only a safe place to socialize and learn, together with other expat women. The web page is offering Arabic language sessions, Middle eastern cooking classes, and meet-ups or group travels, within Egypt, on organized trips.
 
-## Live demo [_here_](https://www.example.com)
+## Live demo [https://lorenaaas.github.io/expat-women-in-cairoo/]
 
 
 ## General Information
