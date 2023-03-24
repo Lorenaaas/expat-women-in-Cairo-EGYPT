@@ -20,6 +20,7 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 3px;
     color: darkslategray;
+   
 }
 
 #logo {
@@ -38,18 +39,17 @@ h2 {
 
 #menu, #logo {
     line-height: 75px;
-
 }
 
 #menu li {
     float: right;
     list-style-type: none;
-    margin: 20px;
+    margin: 30px;
 }
 
 #menu a {
     text-decoration: none;
-    color: inherit;
+    color: darkslategray;
 }
 
 #menu a:hover {
@@ -59,6 +59,13 @@ h2 {
 .active {
     border-bottom: 2px solid darkslategray;
 }
+#sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    font-weight: bold;
+}
 
 /*hero-image and text*/
 
@@ -66,7 +73,7 @@ h2 {
     height: 500px;
     width: 100%;
    overflow: hidden;
-   margin-left: 30px;
+   margin-left: 20px;
    
 }
 
@@ -75,7 +82,8 @@ h2 {
     width: 30%;
     background: url('../images/arabic2.jpeg') no-repeat center center;
     background-size: cover;
-    margin-right:30px;
+    margin-right:40px;
+    margin-top: 5%;
 }
 
 #right-about {
@@ -118,7 +126,6 @@ h2 {
 
 .sec1 {
     clear: left;
-   background-color: darkgoldenrod;
     background-size: 150%;
     background-position: center center;
     height: 800px;
@@ -257,7 +264,7 @@ footer {
     font-size: 20px;
     font-size: 200%;
     letter-spacing: 3px;
-    background-color: lightblue;
+    background-color: rgb(202, 229, 238);
 }
 
 /* Media queries */

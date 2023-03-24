@@ -36,13 +36,13 @@ List the ready features here:
 
 
 
-## Screenshots
-![Example screenshot](./img/screenshot.png)
-
+## Screenshot
+![Screenshot of header and nav] ()
 ###The Header
 -	The header shows the name of the club, using the other color chosen darslategray.
 -	The header explains the club is for only expat women living in Cairo, Egypt that are willing to socialize and learn new things pertaining to the country’s culture.
-Ss here
+
+## Screenshot
 
 ### The About Us Section
 -	The About Us Sections gives details about what the club offers to the members.
