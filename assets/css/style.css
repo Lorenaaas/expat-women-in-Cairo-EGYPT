@@ -57,7 +57,7 @@ h2 {
 }
 
 .active {
-    border-bottom: 2px solid darkslategray;
+    border-bottom: none;
 }
 #sticky {
     position: fixed;
