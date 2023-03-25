@@ -36,23 +36,26 @@ List the ready features here:
 
 
 
-## Screenshot
-![Screenshot of header and nav] ()
-###The Header
+
+<img src='assets/images/header+nav bar.jpg'>
+
+### The Header
 -	The header shows the name of the club, using the other color chosen darslategray.
 -	The header explains the club is for only expat women living in Cairo, Egypt that are willing to socialize and learn new things pertaining to the country’s culture.
 
-## Screenshot
+
+<img src='assets/images/header+nav bar.jpg'>
 
 ### The About Us Section
 -	The About Us Sections gives details about what the club offers to the members.
 -	It contains as well a schedule with days, times, and sessions the club members can join.
-Ss here
+
+<img src='assets/images/about us.jpg'>
 
 ### The Sign Up Form
 -	The Sign Up section contains a form that collects the first name, last name, and email of the user that would like to join the club
 
-SS HERE
+<img src='assets/images/sign up form.jpg'>
 
 
 ### The Contact Section
@@ -60,6 +63,8 @@ SS HERE
 -	The contact section provides a phone number, email address, and the location of the club
 -	The contact section contains as well social media icons that will bring the users to the facebook page, youtube page and Instagram page.
 
+
+<img src='assets/images/contact us.jpg'>
 
 
 
@@ -73,9 +78,14 @@ SS HERE
 ## Project Status
 Project is: _complete_ 
 
-#Validator Testing
+#  Validator Testing
+- I confirm that the responsive design is optimal
 
+<img src='assets/images/responsive design.jpg'>
 
+- I confirm that Lighthouse perfomance reader is optimal
+
+<img src='assets/images/performance.jpg'>
 
 ## Room for Improvement
 
