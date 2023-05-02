@@ -320,53 +320,56 @@ footer {
 }
 
 /* For medium screens sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
 
-    #menu {
+@media screen and (min-width: 600px) {
+    .element {
+
+        #menu {
         clear: left;
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
         
     }
-    #hero-outer{
+        #hero-outer{
 
         height: 1200px;
         width: 100%;
         margin: 0 auto;
     }
 
-    #right-about {
+        #right-about {
         left: 0;
        top:30%;
        margin-left: 20px;
     }
-    #right-about>h1{
+        #right-about>h1{
         text-align: left;
     }
     #right-about p{
         text-align: left;
     }
 
-    #about-us {
+        #about-us {
         width: 90%;
         height: 1200px;
         margin: 0 auto;
     }
-    #hero-image {
+        #hero-image {
        
         width: 100%;
         height: 50%;
        
         margin-top: 500px;
         margin-right:600px;
-        margin-left: 10px;
-        
-        
+        margin-left: 10px; 
         
     }
+    }
 }
+
 @media screen and (max-width:600px) {
+  
 
     #menu {
         clear: left;
