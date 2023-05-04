@@ -20,7 +20,7 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 3px;
     color: darkslategray;
-   
+
 }
 
 #logo {
@@ -28,7 +28,7 @@ h2 {
     font-size: 280%;
     margin-left: 10px;
     text-align: left;
-   
+
     position: fixed;
 }
 
@@ -37,8 +37,8 @@ h2 {
 #hero-outer {
     height: 500px;
     width: 100%;
-   margin-left: 20px;
-   
+    margin-left: 20px;
+
 }
 
 #hero-image {
@@ -46,33 +46,31 @@ h2 {
     width: 30%;
     background: url('../images/arabic2.jpeg') no-repeat center center;
     background-size: cover;
-    margin-right:40px;
-    margin-top: 5%;
+    margin-left: 18px;
+    margin-top: 21%;
 }
 
 #right-about {
-    
+
     font-size: 200%;
     letter-spacing: 3px;
     left: 20%;
-    height: 600px;
+    height: 300px;
     right: 0;
-    position: absolute;
     margin-left: 200px;
-    top: 25%;
+    
 }
-#right-about>h1{
+
+#right-about>h1 {
     text-align: center;
 
 }
-#right-about p{
+
+#right-about p {
     text-align: center;
 }
 
-.sec1 {
-    width: 100%;
-    height: 200px;
-}
+
 
 #about-us {
     margin: 5px;
@@ -88,14 +86,7 @@ h2 {
     color: darkslategray;
 }
 
-.sec1 {
-    clear: left;
-    background-size: 150%;
-    background-position: center center;
-    height: 800px;
-    width: 90%;
-    position: relative;
-}
+
 
 /*table style*/
 
@@ -131,7 +122,7 @@ th {
     border-spacing: 10px;
     font-size: 150%;
     letter-spacing: 3px;
-    
+
 
 }
 
@@ -237,44 +228,46 @@ footer {
 /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     #about-us {
+
         width: 65%;
         height: 1200px;
+        
+    }
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #hero-outer {
+
+        height: 1200px;
+        width: 65%;
         margin: 0 auto;
     }
 
-        #menu{
-            clear: left;
-            float: left;
-            margin-left: 30px; 
-            margin-bottom: 20px;
-            line-height: 25px;
-        }
-        #hero-outer{
 
-            height: 1200px;
-            width: 65%;
-            margin: 0 auto;
-        }
-        
+    #hero-image {
 
-        #hero-image{
+        width: 100%;
+        height: 550px;
 
-            width: 100%;
-            height: 50%;
-            margin-top:400px;
-            margin-right: 400px;
-            margin-left:200px;
 
-        }
+    }
 
     #right-about {
-        left:0;
+        left: 0;
         margin-left: 20px;
     }
-    #right-about>h1{
+
+    #right-about>h1 {
         text-align: left;
     }
-    #right-about p{
+
+    #right-about p {
         text-align: left;
     }
 
@@ -286,99 +279,52 @@ footer {
 
 /* For medium screens sizes from 950px wide and down */
 
-@media screen and (min-width: 600px) {
-    .element {
-
-        #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        
-    }
-        #hero-outer{
-
-        height: 1200px;
-        width: 100%;
-        margin: 0 auto;
-    }
-
-        #right-about {
-        left: 0;
-       top:30%;
-       margin-left: 20px;
-    }
-        #right-about>h1{
-        text-align: left;
-    }
-    #right-about p{
-        text-align: left;
-    }
-
-        #about-us {
-        width: 90%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-        #hero-image {
-       
-        width: 100%;
-        height: 50%;
-       
-        margin-top: 500px;
-        margin-right:600px;
-        margin-left: 10px; 
-        
-    }
-    }
-}
 
 @media screen and (max-width:600px) {
-  
+
 
     #menu {
+
         clear: left;
         float: left;
         margin-left: 30px;
         margin-bottom: auto;
         text-align: left;
-        
-    }
-    #hero-outer{
 
-        height: 50px;
+    }
+
+    #hero-outer {
+
+        height: 500px;
         width: 100%;
         margin: 0 auto;
+
     }
 
     #right-about {
+
         position: relative;
-       margin-left: 20px;
+        margin-left: 20px;
+
     }
-    #right-about>h1{
+
+    #right-about>h1 {
         text-align: left;
     }
-    #right-about p{
+
+    #right-about p {
         text-align: left;
     }
 
     #about-us {
         width: 90%;
         height: 1200px;
-        margin: 0 auto;
-    }
-    #hero-image {
-        width: 100%;
-        height: 50%;
-        margin-top: 500px;
-        margin-right:600px;
-        margin-left: 10px;
+        margin-top: 800px;
     }
 
-    #contact, #social-networks {
+    #contact,
+    #social-networks {
         float: left;
     }
-    
+
 }
-
-
