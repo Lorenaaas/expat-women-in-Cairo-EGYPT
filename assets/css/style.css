@@ -257,15 +257,17 @@ footer {
 
     #hero-image {
 
-        width: 100%;
-        height: 550px;
-
+        width: 50%;
+        height: 50%;
+        position: relative;
+        top:200px;
 
     }
 
     #right-about {
-        left: 0;
-        margin-left: 20px;
+       
+        font-size: 90%;
+        float:right;
     }
 
     #right-about>h1 {
