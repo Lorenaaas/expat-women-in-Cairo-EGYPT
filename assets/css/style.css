@@ -251,37 +251,33 @@ footer {
 
         height: 1200px;
         width: 65%;
-        margin: 0 auto;
+        
     }
 
 
     #hero-image {
 
-        width: 50%;
+        width: 70%;
         height: 50%;
         position: relative;
-        top:200px;
+        top:60px;
+        right:110px;
+        margin-left: 120px;
 
     }
 
     #right-about {
        
-        font-size: 90%;
-        float:right;
+        font-size: 129%;
+        letter-spacing: 3px;
+        left: 20%;
+        height: 300px;
+        position: relative;
+        left: 242px;
+        top:330px;
+        padding: 10px 76px 12px 210px;
     }
 
-    #right-about>h1 {
-        text-align: left;
-    }
-
-    #right-about p {
-        text-align: left;
-    }
-
-
-    hr {
-        display: none;
-    }
 }
 
 /* For medium screens sizes from 950px wide and down */
@@ -315,13 +311,6 @@ footer {
 
     }
 
-    #right-about>h1 {
-        text-align: left;
-    }
-
-    #right-about p {
-        text-align: left;
-    }
 
     #about-us {
         width: 90%;
