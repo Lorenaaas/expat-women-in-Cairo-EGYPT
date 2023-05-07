@@ -74,10 +74,10 @@ h2 {
 
 
 #about-us {
-    margin: 5px;
+   
     font-size: 150%;
     letter-spacing: 3px;
-    padding: 5%;
+    
     font-weight: 400;
     color: black;
     height: 700px;
@@ -228,7 +228,7 @@ footer {
 @media screen and (max-width: 1200px) {
     #about-us {
         height: 1200px;
-        margin-left: 170px;
+       
         margin-top: 100px;
 
     }
@@ -305,7 +305,7 @@ footer {
         width: 90%;
         height: 1200px;
         margin-top: 200px;
-        margin-left: 170px;
+        
     }
 
     #contact,
