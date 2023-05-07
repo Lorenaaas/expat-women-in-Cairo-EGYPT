@@ -23,7 +23,6 @@ h2 {
     font-size: 280%;
     margin-left: 10px;
     text-align: left;
-
     position: fixed;
 }
 
@@ -31,8 +30,7 @@ h2 {
 
 #hero-outer {
     height: 1000px;
-    width: 70%;
-    margin-left: 20px;
+    width: 100%;
     background-color: aqua;
 
 }
@@ -44,7 +42,7 @@ h2 {
     background-size: cover;
     position: relative;
     bottom: 250px;
-    margin-left: 120px;
+   left:44px;
 
 }
 
@@ -52,14 +50,13 @@ h2 {
 
     font-size: 200%;
     letter-spacing: 3px;
-    left: 20%;
-    height: 300px;
+    height: 354px;
     position: relative;
-    left: 500px;
-    top: 330px;
-    padding: 36px 150px 27px 63px;
-    margin-left: 373px;
-
+    top: 194px;
+    width: 28%;
+    left: 876px;
+    background-color: yellow;
+   
 }
 
 #right-about>h1 {
@@ -77,20 +74,16 @@ h2 {
    
     font-size: 150%;
     letter-spacing: 3px;
-    
     font-weight: 400;
     color: black;
-    height: 700px;
+    height: 870px;
     width: 100%;
     background-color: rgb(255, 251, 0);
 }
-
 #about-title {
     font-size: 200%;
     color: darkslategray;
 }
-
-
 
 /*table style*/
 
@@ -183,7 +176,7 @@ footer {
     height: 1200px;
     width: 100%;
     background: url("../images/pexels-women-talking.webp") no repeat;
-    background-size: contain;
+    background-size: cover;
     text-align: center;
     background-color: aqua;
 
@@ -228,9 +221,7 @@ footer {
 @media screen and (max-width: 1200px) {
     #about-us {
         height: 1200px;
-       
         margin-top: 100px;
-
     }
 
     #menu {
@@ -242,29 +233,29 @@ footer {
     }
 
     #hero-outer {
-
         height: 1200px;
-        width: 65%;
-
+        width: 100%;
     }
 
 
     #hero-image {
 
-        width: 110%;
+        width: 90%;
         height: 50%;
         top: 60px;
-        margin-left: 170px;
+       
 
     }
 
     #right-about {
 
-        left: -45%;
         font-size: 158%;
         height: 37%;
         width: 100%;
         margin-bottom: 70px;
+        top: 62px;
+        left: 1px;
+}
     }
 
 }
