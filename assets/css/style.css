@@ -33,6 +33,7 @@ h2 {
     height: 1000px;
     width: 70%;
     margin-left: 20px;
+    background-color: aqua;
 
 }
 
@@ -80,7 +81,8 @@ h2 {
     font-weight: 400;
     color: black;
     height: 700px;
-    width: 920px;
+    width: 100%;
+    background-color: rgb(255, 251, 0);
 }
 
 #about-title {
@@ -121,19 +123,13 @@ th {
 /*form section*/
 
 .form-section {
-    border-spacing: 10px;
-    font-size: 150%;
-    letter-spacing: 3px;
-
-
-}
-
-.form-section {
-    width: 170%;
+    width: 100%;
     background: url("../images/pexels-photo-15188027.jpeg");
     background-size: cover;
     height: 900px;
-
+    border-spacing: 10px;
+    font-size: 150%;
+    letter-spacing: 3px;
 
 }
 
@@ -158,9 +154,6 @@ th {
     top: 150px;
     left: 200px;
     width: 30%;
-
-
-
 }
 
 .signup-form>h2 {
@@ -187,11 +180,12 @@ th {
 /*footer*/
 
 footer {
-    height: 900px;
+    height: 1200px;
     width: 100%;
-    background: url("../images/pexels-women-talking.webp");
-    background-size: cover;
+    background: url("../images/pexels-women-talking.webp") no repeat;
+    background-size: contain;
     text-align: center;
+    background-color: aqua;
 
 }
 
@@ -233,10 +227,7 @@ footer {
 /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     #about-us {
-
-        width: 65%;
         height: 1200px;
-        margin: 0 auto;
         margin-left: 170px;
         margin-top: 100px;
 
