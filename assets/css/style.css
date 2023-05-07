@@ -35,19 +35,20 @@ h2 {
 /*hero-image and text*/
 
 #hero-outer {
-    height: 1200px;
-    width: 108%;
+    height: 1000px;
+    width: 70%;
     margin-left: 20px;
 
 }
 
 #hero-image {
     height: 800px;
-    width: 850px;
+    width: 650px;
     background: url('../images/arabic2.jpeg') no-repeat center center;
     background-size: cover;
     position: relative;
     bottom: 250px;
+    margin-left:120px;
     
 }
 
@@ -60,7 +61,8 @@ h2 {
     position: relative;
     left:500px;
     top:330px;
-    padding: 36px 464px 27px 379px;
+    padding: 36px 150px 27px 63px;
+    margin-left: 373px;
     
 }
 
@@ -132,7 +134,7 @@ th {
 }
 
 .form-section {
-    width: 100%;
+    width: 170%;
     background: url("../images/pexels-photo-15188027.jpeg");
     background-size: cover;
     height: 900px;
@@ -151,7 +153,7 @@ th {
 }
 
 .signup-form {
-    margin: 159px 10% 0 0;
+    margin: 10% -51% 21% 46%;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 900px;
@@ -236,6 +238,9 @@ footer {
 
         width: 65%;
         height: 1200px;
+        margin: 0 auto;
+        margin-left:170px;
+        margin-top:100px;
         
     }
 
@@ -257,25 +262,20 @@ footer {
 
     #hero-image {
 
-        width: 70%;
+        width: 110%;
         height: 50%;
-        position: relative;
         top:60px;
-        right:110px;
-        margin-left: 120px;
+        margin-left: 170px;
 
     }
 
     #right-about {
        
-        font-size: 129%;
-        letter-spacing: 3px;
-        left: 20%;
-        height: 300px;
-        position: relative;
-        left: 242px;
-        top:330px;
-        padding: 10px 76px 12px 210px;
+        left:-45%;
+        font-size:158%;
+        height:37%;
+        width:100%;
+        margin-bottom: 70px;
     }
 
 }
@@ -298,7 +298,7 @@ footer {
 
     #hero-outer {
 
-        height: 500px;
+        height: 1400px;
         width: 100%;
         margin: 0 auto;
 
@@ -306,8 +306,8 @@ footer {
 
     #right-about {
 
-        position: relative;
-        margin-left: 20px;
+        
+        margin-left: 250px;
 
     }
 
@@ -315,7 +315,8 @@ footer {
     #about-us {
         width: 90%;
         height: 1200px;
-        margin-top: 800px;
+        margin-top: 200px;
+        margin-left:170px;
     }
 
     #contact,
