@@ -157,11 +157,10 @@ th {
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 900px;
-    position: absolute;
     left: 10%;
     padding: 40px;
     border: 2px solid black;
-    display: inline;
+    
 
 }
 
