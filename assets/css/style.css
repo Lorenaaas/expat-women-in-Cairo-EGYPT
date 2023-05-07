@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
 
 body {
     font-family: Lato, sans-serif;
@@ -48,8 +43,8 @@ h2 {
     background-size: cover;
     position: relative;
     bottom: 250px;
-    margin-left:120px;
-    
+    margin-left: 120px;
+
 }
 
 #right-about {
@@ -59,11 +54,11 @@ h2 {
     left: 20%;
     height: 300px;
     position: relative;
-    left:500px;
-    top:330px;
+    left: 500px;
+    top: 330px;
     padding: 36px 150px 27px 63px;
     margin-left: 373px;
-    
+
 }
 
 #right-about>h1 {
@@ -85,7 +80,7 @@ h2 {
     font-weight: 400;
     color: black;
     height: 700px;
-    width:920px;
+    width: 920px;
 }
 
 #about-title {
@@ -153,14 +148,18 @@ th {
 }
 
 .signup-form {
-    margin: 10% -51% 21% 46%;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 900px;
     left: 10%;
     padding: 40px;
     border: 2px solid black;
-    
+    position: relative;
+    top: 150px;
+    left: 200px;
+    width: 30%;
+
+
 
 }
 
@@ -238,9 +237,9 @@ footer {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
-        margin-left:170px;
-        margin-top:100px;
-        
+        margin-left: 170px;
+        margin-top: 100px;
+
     }
 
     #menu {
@@ -255,7 +254,7 @@ footer {
 
         height: 1200px;
         width: 65%;
-        
+
     }
 
 
@@ -263,17 +262,17 @@ footer {
 
         width: 110%;
         height: 50%;
-        top:60px;
+        top: 60px;
         margin-left: 170px;
 
     }
 
     #right-about {
-       
-        left:-45%;
-        font-size:158%;
-        height:37%;
-        width:100%;
+
+        left: -45%;
+        font-size: 158%;
+        height: 37%;
+        width: 100%;
         margin-bottom: 70px;
     }
 
@@ -305,7 +304,7 @@ footer {
 
     #right-about {
 
-        
+
         margin-left: 250px;
 
     }
@@ -315,12 +314,17 @@ footer {
         width: 90%;
         height: 1200px;
         margin-top: 200px;
-        margin-left:170px;
+        margin-left: 170px;
     }
 
     #contact,
     #social-networks {
         float: left;
+    }
+
+    .signup-form {
+
+        margin-left: 10px;
     }
 
 }
