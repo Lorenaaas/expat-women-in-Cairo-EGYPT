@@ -175,7 +175,7 @@ th {
 footer {
     height: 1200px;
     width: 100%;
-    background: url("../images/pexels-women-talking.webp") no repeat;
+    background: url("../images/pexels-women-talking.webp");
     background-size: cover;
     text-align: center;
     background-color: aqua;
@@ -184,7 +184,7 @@ footer {
 
 .contact {
     text-align: center;
-    font-size: 120%;
+    font-size: 146%;
     font-weight: 400;
     padding-top: 10%;
 }
@@ -255,10 +255,10 @@ footer {
         margin-bottom: 70px;
         top: 62px;
         left: 1px;
+     }
 }
-    }
 
-}
+
 
 /* For medium screens sizes from 950px wide and down */
 
