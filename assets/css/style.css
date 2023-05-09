@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
 
 body {
     font-family: Lato, sans-serif;
@@ -132,6 +127,7 @@ h2 {
     width: 100%;
     background-color: rgb(255, 251, 0);
 }
+
 #about-title {
     font-size: 200%;
     color: darkslategray;
