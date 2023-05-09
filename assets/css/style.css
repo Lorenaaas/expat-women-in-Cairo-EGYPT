@@ -235,7 +235,6 @@ th {
     text-align: center;
 }
 
-
 /*footer*/
 
 footer {
@@ -309,18 +308,15 @@ footer {
 
 
     #hero-image {
-
-        width: 90%;
-        height: 50%;
+        width: 100%;
+        height: 68%;
         top: 60px;
-       
-
+        left: 1px;
     }
 
     #right-about {
-
         font-size: 158%;
-        height: 37%;
+        height: 22%;
         width: 100%;
         margin-bottom: 70px;
         top: 62px;
@@ -350,30 +346,24 @@ footer {
 
 
     #menu {
-
         clear: left;
         float: left;
         margin-left: 30px;
         margin-bottom: auto;
         text-align: left;
-
     }
 
     #hero-outer {
-
         height: 1400px;
         width: 100%;
         margin: 0 auto;
-
     }
 
     #right-about {
 
-
         margin-left: 250px;
 
     }
-
 
     #about-us {
         width: 90%;
