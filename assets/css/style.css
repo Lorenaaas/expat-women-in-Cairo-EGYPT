@@ -196,7 +196,7 @@ th {
     padding: 40px;
     border: 2px solid black;
     position: relative;
-    top: 0px;
+    top: -162px;
     left: 200px;
     width: 30%;
 }
@@ -221,8 +221,9 @@ th {
     background-color: #fafafa;
     color: #f16c6b;
 }
+
 #sign-here{
-    height: 281px;
+    height: 395px;
     width: 40%;
     background-color: #f16c6b;
     font-size: 40;
@@ -230,8 +231,10 @@ th {
     position: relative;
     left: 55%;
     top: 173px;
-    font-weight: 700
+    font-weight: 700;
+    text-align: center;
 }
+
 
 /*footer*/
 
@@ -328,11 +331,11 @@ footer {
         position: relative;
         top: 82px;
         left: 200px;
-        width: 30%;
+        width: 50%;
     }
 
     #sign-here{
-        height: 214px;
+        height: 286px;
         width: 87%;
         position: relative;
         left: 5%;
