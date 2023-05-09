@@ -196,7 +196,7 @@ th {
     padding: 40px;
     border: 2px solid black;
     position: relative;
-    top: 150px;
+    top: 0px;
     left: 200px;
     width: 30%;
 }
@@ -220,6 +220,17 @@ th {
 .join-button:hover {
     background-color: #fafafa;
     color: #f16c6b;
+}
+#sign-here{
+    height: 281px;
+    width: 40%;
+    background-color: #f16c6b;
+    font-size: 40;
+    color: black;
+    position: relative;
+    left: 55%;
+    top: 173px;
+    font-weight: 700
 }
 
 /*footer*/
