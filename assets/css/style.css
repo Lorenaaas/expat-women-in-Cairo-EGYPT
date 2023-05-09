@@ -323,9 +323,22 @@ footer {
         top: 62px;
         left: 1px;
      }
+
+     .signup-form {
+        position: relative;
+        top: 0px;
+        left: 200px;
+        width: 30%;
+    }
+
+    #sign-here{
+        height: 281px;
+        width: 40%;
+        position: relative;
+        left: 30%;
+        top: 173px;
+    }
 }
-
-
 
 /* For medium screens sizes from 950px wide and down */
 
