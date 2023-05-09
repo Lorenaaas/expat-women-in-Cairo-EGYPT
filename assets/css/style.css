@@ -119,8 +119,6 @@ h2 {
     text-align: center;
 }
 
-
-
 #about-us {
    
     font-size: 150%;
@@ -359,16 +357,11 @@ footer {
         margin: 0 auto;
     }
 
-    #right-about {
-
-        margin-left: 250px;
-
-    }
-
     #about-us {
         width: 90%;
         height: 1200px;
         margin-top: 200px;
+        text-align: center;
         
     }
 
@@ -379,7 +372,28 @@ footer {
 
     .signup-form {
 
-        margin-left: 10px;
+        left:56px;
+    }
+    #sign-here {
+            height: 277px;
+            width: 86%;
+            font-size: 23px;
+    }
+     tr, th {
+       width:1px;
+       height:1px; 
+        
+    }
+    .table, tr, th {
+         margin: 0px;
+         padding: 0; 
+         text-align: left; 
+         position: relative; 
+    }
+    .table {
+        width: 0px;
+        border-spacing: 0px;
+        padding-left: 17px;
     }
 
 }
