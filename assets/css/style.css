@@ -89,7 +89,7 @@ h2 {
 
 #hero-image {
     height: 800px;
-    width: 650px;
+    width: 50%;
     background: url('../images/arabic2.jpeg') no-repeat center center;
     background-size: cover;
     position: relative;
@@ -106,7 +106,7 @@ h2 {
     position: relative;
     top: 194px;
     width: 28%;
-    left: 876px;
+    left: 60%;
     background-color: yellow;
    
 }
