@@ -326,17 +326,17 @@ footer {
 
      .signup-form {
         position: relative;
-        top: 0px;
+        top: 82px;
         left: 200px;
         width: 30%;
     }
 
     #sign-here{
-        height: 281px;
-        width: 40%;
+        height: 214px;
+        width: 87%;
         position: relative;
-        left: 30%;
-        top: 173px;
+        left: 5%;
+        top: 31px;
     }
 }
 
