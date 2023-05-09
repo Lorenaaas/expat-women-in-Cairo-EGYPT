@@ -342,7 +342,7 @@ footer {
 /* For medium screens sizes from 950px wide and down */
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 900px) {
 
 
     #menu {
