@@ -399,5 +399,8 @@ footer {
     #list_aboutus{
         list-style: none;
     }
+    header{
+        height:500px;
+    }
 
 }
