@@ -388,14 +388,16 @@ footer {
         
     }
     .table, tr, th {
-         margin: 0px;
+         
          padding: 0; 
-         text-align: left; 
-         position: relative; 
+         margin: 0 auto;
     }
     .table {
         width: 0px;
        
+    }
+    #list_aboutus{
+        list-style: none;
     }
 
 }
